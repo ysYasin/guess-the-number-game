@@ -49,4 +49,7 @@ submitBtn.addEventListener('click', function () {
     //
     guessField.value = '';
 });
-
+// ReStart button
+document.getElementById('reset').addEventListener('click', function () {
+    location.reload()
+})
