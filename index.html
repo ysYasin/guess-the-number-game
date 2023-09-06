@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="number-input">
+            <h1 id="result">guess the number</h1>
+            <h1 id="resultImoj">&#x231A;</h1>
+        </div>
+        <div class="user-input">
+            <input id="numberField" type="number" placeholder="guess the random number">
+            <button id="submit">Submit Number</button>
+            <h3 style="color: yellow; margin: 0.5rem 0;" class="d-none" id="ReStart-alert">To Play Agayn Restart
+                please.......</h3>
+        </div>
+        <div class="store">
+            <h3>You said <span id="last-try">00</span></h3>
+            <h3>number of try <span id="number-of-try">00</span></h3>
+            <h3 style="color: yellow; margin: 0.5rem 0;" class="d-none" id="enogh">So Bad, ReStart And Try Again...
+            </h3>
+        </div>
+        <div class="reset-btn">
+            <button id="reset">RESTART</button>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
